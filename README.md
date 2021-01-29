@@ -1,56 +1,28 @@
-# Fetch Hackathon
+# Fetch Hackathon - Trivia quiz game
 
-Today we will be using our new found skills to make apps that request data from a server.
+In a pair and during a 4 hour hackathon, my partner and I wanted to create a trvia quiz game that both looked good and was fun and competitive. We had to use vanilla javascript and this was during the second week we actually started getting into code so it was sort of all new to us. We were and still are passionate about coding so we took to it and created [this game](https://trivia-quiz-game.netlify.app/)
 
-## Step 1 - Getting data and brainstorming (20 - 30 mins)
+We used opentdb's trivia api and recieved 3 incorrecr answers in one array and 1 correct in another from the api. We then took to placing them in one array and assigning them to <li> tags so users can interact with them but also wrote a function which shuffles location of the correct/incorrect answers as to make them appear in a differnt choice option everytime. It's a fun and competitive game that was done with a heart full of passion and little time.
 
-Here are some APIs that we can use for free. All but the dad jokes one simply need the url. Each api has documentation on how to ask for different data by changing the url. We have included an example fetch for each one to help you get started.
+## Built with
 
-👉 Visit the documentation for the APIs, use JS to request some data and see what you get back. From there, brainstorm what you could make with your knowledge of JavaScript, the DOM and the data you have received.
+* HTML
+* CSS
+* JavaScript
+* Netlify
 
-### Star Wars API
+## View the app
 
-- [Star Wars API](https://swapi.dev/)
+You can either click on the "this game" hyperlink above or 
 
-```js
-// fetch the first star wars character
-fetch("https://swapi.dev/api/people/1");
-```
+* clone down the repository
+### `https://github.com/Za-Qar/quiz-game.git`
 
-### Pokemon API
+* Open the html file
 
-- [Pokemon API](https://pokeapi.co/)
+## Contact method
 
-```js
-// fetch the first pokemon
-fetch("https://pokeapi.co/api/v2/pokemon/1/");
-```
+Please don't hesitate in contacting me if you have any questions or need any assistance as I want to hear from you
+[Contact email](mailto:za.qa@outlook.com?subject=[GitHub]%20Trivia%20quiz%20game)
 
-### Trivia API
 
-- [Trivia API](https://opentdb.com/api_config.php)
-
-```js
-// fetch 10 random questions
-fetch("https://opentdb.com/api.php?amount=10");
-```
-
-### Dad Jokes API
-
-- [Dad Jokes API](https://icanhazdadjoke.com/api)
-
-```js
-// fetch a dad joke
-fetch("https://icanhazdadjoke.com/", {
-  headers: { accept: "application/json" },
-});
-```
-
-## Step 2 - Break down the problem (20 - 30 mins)
-
-Now that you have got an idea of what data you are working with, and have come up with an idea of what you could achieve, break down the problem into smaller chunks. Keep breaking the problem down until you can translate your plan into code. You should dream big, break it down and start small. If your plan turns out to be overly ambitious, then be smart and reign it in. If you have been too conservative then try and push yourself.
-
-## Step 3 - Build (The rest of the day!)
-
-Translate your plan into code, turn your ideas into reality. Enjoy!
-# todo
